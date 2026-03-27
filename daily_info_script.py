@@ -3,9 +3,6 @@ import requests
 import urllib.request
 
 # os.getenv sucht im System nach einer Variable mit dem Namen 'MY_API_KEY'
-print(hello);
-
-
 WEBHOOK_URL = os.getenv('MY_API_KEY')
 
 if WEBHOOK_URL is None:
