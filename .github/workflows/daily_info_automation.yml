@@ -20,4 +20,4 @@ jobs:
         env:
           # Hier wird das GitHub-Secret in eine Umgebungsvariable geladen
           MY_DISCORD: ${{ secrets.MY_DISCORD }}
-        run: python dein_script.py
+        run: daily_info_script.py
