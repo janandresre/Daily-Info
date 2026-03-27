@@ -17,4 +17,7 @@ jobs:
       - name: Install dependencies
         run: pip install requests
       - name: Run script
+        env:
+          # Hier wird das GitHub-Secret in eine Umgebungsvariable geladen
+          MY_DISCORD: ${{ secrets.MY_DISCORD }}
         run: python dein_script.py
