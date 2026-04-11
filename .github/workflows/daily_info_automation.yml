@@ -2,7 +2,7 @@
 name: Daily Discord Message
 on:
   schedule:
-    - cron: '0 9 * * *' # Täglich um 09:00 UTC
+    - cron: '12 7 * * *' # Täglich um 09:00 UTC
   workflow_dispatch: # Erlaubt manuelles Starten zum Testen
 
 jobs:
